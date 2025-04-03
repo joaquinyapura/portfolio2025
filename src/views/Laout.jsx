@@ -3,7 +3,7 @@ import { NavBar } from "../Components/NavBar";
 
 export const Laout = () => {
   return (
-    <div className="w-full h-screen bg-black ">
+    <div className="w-full min-h-screen bg-black ">
       <NavBar />
       <main>
         <Outlet />
