@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Bayon&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+:root {
+  font-family: "Roboto", "sans-serif";
+  color: white;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+@theme {
+  --font-roboto: "Roboto", "sans-serif";
+  --font-bayon: "Bayon", "sans-serif";
+  --color-azul: #009dff;
+}
+
+.mask-fade {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
