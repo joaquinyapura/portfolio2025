@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Proyects = () => {
-  return <div>Proyects</div>;
+  return <div className="h-[2000px] bg-black">Proyects</div>;
 };

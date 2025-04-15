@@ -6,15 +6,19 @@ export const HeroSection = () => {
   return (
     <div className="flex justify-between container">
       <div className="flex flex-col w-full justify-center items-center text-center md:items-end  font-bayon md:text-right ">
-        <h1 className="md:text-[80px] text-3xl w-full   ">
+        <h1 className="md:text-[80px] text-3xl w-full leading-7   ">
           JOAQUIN BATALLANES
         </h1>
-        <h1 className="md:text-[73px]  text-3xl w-full  text-azul">
+        <h1 className="md:text-[73px]   text-3xl w-full  text-azul">
           FRONT END DEVELOPER
         </h1>
-        <p className="font-roboto md:w-[600px] md:text-base text-sm ">
-          I'm a multimedia design graduate, improving my front-end skills. Join
-          me and let's explore together!
+        <p className="font-roboto md:w-[600px] md:text-base text-sm text-gray-500 ">
+          I'm a passionate Multimedia Design graduate, currently refining my
+          skills in front-end development. With a strong foundation in design
+          and a growing expertise in coding, I’m eager to craft visually
+          stunning and user-friendly websites. Let’s work together to create
+          innovative digital experiences that seamlessly blend aesthetics with
+          functionality.-
         </p>
         <div className=" md:w-[580px] w-[300px] overflow-hidden flex mask-fade">
           {/* el infinite scroll fue modificado en tailwind */}
@@ -26,17 +30,20 @@ export const HeroSection = () => {
             ))}
           </ul>
         </div>
-        <div className="flex md:w-[590px] w-[350px] gap-7 justify-center font-roboto mt-4 md:text-base text-sm">
+        <div className="flex flex-col md:flex-row md:w-[590px] w-[350px] gap-7 justify-center font-roboto mt-4 md:text-base text-sm">
           <a
             href="#"
-            className="bg-white text-black p-2 w-[45%] flex items-center justify-center gap-2 rounded-full"
+            className="bg-white text-black p-2 md:w-[45%] w-full flex items-center justify-center gap-2 rounded-full"
           >
             <span>
               <img src={github} className="w-[20px]" alt="github logo" />
             </span>
             Github
           </a>
-          <a href="#" className="bg-azul p-2 w-[45%] text-center rounded-full">
+          <a
+            href="#"
+            className="bg-azul p-2 md:w-[45%] w-full text-center rounded-full"
+          >
             Download my resume
           </a>
         </div>

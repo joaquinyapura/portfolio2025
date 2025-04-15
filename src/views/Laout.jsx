@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router";
 import { NavBar } from "../Components/NavBar";
 
 export const Laout = () => {
@@ -8,7 +8,6 @@ export const Laout = () => {
       <main>
         <Outlet />
       </main>
-      <div className="w-full p-2 bg-amber-300">foot</div>;
     </div>
   );
 };

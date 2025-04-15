@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 :root {
+  box-sizing: border-box;
   font-family: "Roboto", "sans-serif";
   color: white;
   margin: 0;
   padding: 0;
-  line-height: 1;
 }
 @theme {
   --font-roboto: "Roboto", "sans-serif";
